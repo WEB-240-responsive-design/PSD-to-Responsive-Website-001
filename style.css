@@ -78,3 +78,81 @@ header nav li a.current{
 	max-height: 500px;
 	overlow: hidden;
 }
+
+#selling-points{
+	margin-top: 60px;
+}
+
+#selling-points li{
+	float: left;
+	width: 23%;
+	padding: 1%;
+	text-align: center;
+	list-style-type: none;
+	line-height: 1.6em;
+}
+
+#selling-points:after{
+	display: block;
+	content: "";
+	clear: both;
+}
+
+#latest-work{
+	padding-top: 30px;
+	margin-top: 30px;
+	border-top: 2px solid #e4e4e4;
+}
+
+#latest-work h2{
+	text-transform: uppercase;
+	font-size: 20px;
+	margin-bottom: 40px;
+}
+
+#latest-work li{
+	width: 32%;
+	float: left;
+	list-style-type: none;
+}
+
+#latest-work img{
+	width: 100%
+}
+/*Each image was set at 32% leaving 4% for margins - 2% on each side of the middle image to space them correctly.  Addiitonally, it's nth-child(2) because it's the second image, the one in the center*/
+#latest-work li:nth-child(2){
+	margin: 0 2%;
+}
+
+#latest-work:after{
+	display: block;
+	display: block;
+	content: "";
+	clear: both;
+}
+
+#latest-work h3{
+	margin-bottom: 0;
+}
+
+#latest-work p{
+	line-height: 1.6em;
+}
+
+p.tags{
+	color: #bbb;
+	font-size: 14px;
+	margin-top: 5px;
+}
+
+#quote{
+	margin-top: 60px;
+	width: 60%;
+	padding: 40px 20%;
+	background: url(images/quote.png) no-repeat center 20px;
+	background-color: #efefef;
+	color: #4e4e4e;
+	font-size: 20px;
+	line-height: 1.6em;
+	text-align: center;
+}

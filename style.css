@@ -261,3 +261,28 @@ header ht.logo{
 
 }
 
+/* media queries for mobile breakpoints */
+
+@media screen and (max-width: 480px){
+#selling-points li{
+	width: 80%;
+	padding: 0 10%;		
+	margin: 20px 0;
+}
+#latest-work li{
+	width: 80%;
+	margin: 30px 10% !important;
+}
+
+#quote{
+	font-size: 16px;
+	font-weight: bold;
+}
+
+footer ul{
+	width: 100%;
+	float: none;
+	border-top: 2px solid #333;
+}
+	
+}

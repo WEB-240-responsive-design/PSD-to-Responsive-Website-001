@@ -1,2 +1,80 @@
 /* CSS Document */
 
+*{
+	font-family: Trebuchet MS;	
+}
+
+body, ul, li{
+	margin: 0;
+	padding: 0;
+}
+
+p li, h1, h2, h3, h4{
+	color: #4e4e4e;
+}
+body{
+	background: #f7f7f7;
+}
+
+.wrapper{
+	width: 96%;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 2%;
+}
+
+header{
+	background: #e5e5e5;
+	padding: 20px 0;
+}
+
+header h1{
+	margin: 0;
+	text-indent: -10000px;
+		background: url(images/logo.png) no-repeat;
+	width: 130px;
+	float: left;
+}
+
+header nav{
+	float: right;
+}
+
+header:after{
+	dispay: block;
+	content: "";
+	clear: both;
+}
+
+header nav h2{
+	line-height: 0;
+	margin: 0;
+	text-indent: -10000px;
+}
+
+header nav li{
+	list-sstyle-type: none;
+	float: left;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+header nav li a{
+	text-decoration: none;
+	color:#4e4e4e;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+header nav li a.current{
+ color: #1abb93;
+}
+
+#main-banner img{
+	width: 100%;
+}
+
+#main-banner img{
+	max-height: 500px;
+	overlow: hidden;
+}

@@ -12,6 +12,7 @@ body, ul, li{
 p li, h1, h2, h3, h4{
 	color: #4e4e4e;
 }
+
 body{
 	background: #f7f7f7;
 }
@@ -126,7 +127,6 @@ header nav li a.current{
 
 #latest-work:after{
 	display: block;
-	display: block;
 	content: "";
 	clear: both;
 }
@@ -204,3 +204,60 @@ footer li.tw{
 	color: #999;
 	font-size: 14px;
 }
+
+/* Media queries */
+
+/*this media query is for Tablets*/
+@media screen and (max-width: 960px){
+#selling-points li{
+	width: 40%;
+	padding: 0 5%;
+	margin: 20px 0;
+}	
+
+footer ul{
+	width: 50%;
+}
+/* This tells the four sets of info in footer to send only ODD blocks off to the left - so first block and second block are on the top and third block is on the left with the fourth block to the right of that*/
+footer ul:nth-child(odd){
+	clear: both;
+}
+
+#quote{
+	width:90%;
+	padding: 40px 4%;
+}
+
+}
+
+/*media query for another breakpoint for smaller devices */
+
+@media screen and (max-width: 768px){
+header nav{
+	float: none;		
+}	
+	
+header nav li{
+	margin-left: 0;
+	width: 16.66%;
+	text-align: center;
+	font-size: 14px;	
+}	
+
+header ht.logo{
+	float: none;
+	margin: 0 auto 15px;
+}
+	
+#latest-work li{
+	width: 60%;
+	margin: 30px 20% !important; /*overriding the child imperative up above*/
+	float: none;
+}	
+
+#latest-work h2{
+	text-align: center;	
+}
+
+}
+

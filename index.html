@@ -5,6 +5,11 @@
 		<title>Marble</title>
 		<link href="style.css" rel="stylesheet" type="text/css">
 		<meta name="viewport" content="width=device-width">
+		<script>
+		
+		document.createElement( "picture" );
+		</script>
+	  	<script src=hhttps://cdn.rawgit.com/scottjehl/picturefill/3.0.2/dist/picturefill.min.js async></script>
 	</head>	
 	
 	<body>
@@ -28,10 +33,14 @@
 		</header>
 		
 		<div id="main-banner">
-			<!--Change to the picture element -->
-			<img src="images/banner.jpg" alt="banner">
+			<picture>
+				<source srcset="images/banner-s.jpg" media="(max-width: 480px)">
+				<source srcset="images/banner-m.jpg" media="(max-width: 768px)">
+				<img srcset="images/banner.jpg" alt="banner">
+			</picture>
 		
 		</div>
+		
 		<main class="wrapper">
 		
 			<section id="selling-points">

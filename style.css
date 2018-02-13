@@ -32,7 +32,7 @@ header{
 header h1{
 	margin: 0;
 	text-indent: -10000px;
-		background: url(images/logo.png) no-repeat;
+	background: url(images/logo.png) no-repeat;
 	width: 130px;
 	float: left;
 }
@@ -54,7 +54,7 @@ header nav h2{
 }
 
 header nav li{
-	list-sstyle-type: none;
+	list-style-type: none;
 	float: left;
 	margin-left: 20px;
 	margin-top: 10px;
@@ -77,7 +77,7 @@ header nav li a.current{
 
 #main-banner img{
 	max-height: 500px;
-	overlow: hidden;
+	overflow: hidden;
 }
 
 #selling-points{
@@ -244,7 +244,7 @@ header nav li{
 	font-size: 14px;	
 }	
 
-header ht.logo{
+header h1.logo{
 	float: none;
 	margin: 0 auto 15px;
 }

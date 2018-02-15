@@ -6,6 +6,11 @@
 		<link href="style.css" rel="stylesheet" type="text/css">
 		<meta name="viewport" content="width=device-width">
 		
+		<script>
+			document.createElement( "picture" );
+		</script>
+		
+	  	<script src="https://cdn.rawgit.com/scottjehl/picturefill/3.0.2/dist/picturefill.min.js" async></script>
 	</head>	
 	
 	<body>
@@ -29,8 +34,13 @@
 		</header>
 		
 		<div id="main-banner">
-			<!-- cange to the picture element later -->
-				<img src="images/banner.jpg" alt="banner">
+			<picture> 
+			<source srcset="images/banner-s.jpg" media="(max-width: 480px)">
+			<source srcset="images/banner-m.jpg" media="(max-width: 768px)">
+			<img src="images/banner.jpg" alt="banner">
+			</picture>
+							
+			
 		</div>
 		
 		<main class="wrapper">
@@ -127,6 +137,12 @@
 			</footer>
 
 	</body>
+	
+	 <script
+  src="http://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script> 
 
+	<script src="menu.js"></script>
 
 </html>

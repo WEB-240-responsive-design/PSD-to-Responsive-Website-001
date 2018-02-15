@@ -1,9 +1,9 @@
 // JavaScript Document
-$(document).ready(function(){
+jQuery(document).ready(function(){
 	"use strict";
-	$("#burger-nav").on("click", function(){
+	jQuery("#burger-nav").on("click", function(){
 		
-		$("header nav ul").toggleClass("open");
+		jQuery("header nav ul").toggleClass("open");
 	});
 	
 });

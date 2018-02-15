@@ -42,7 +42,7 @@ header nav{
 }
 
 header:after{
-	dispay: block;
+	display: block;
 	content: "";
 	clear: both;
 }
